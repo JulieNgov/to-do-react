@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+input {
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: 1px solid #333;
+}
+
+.App button {
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  margin-left: 10px;
+}
+
+.App button:hover {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #333;
+}
+
+.list {
+  background-color: rgb(204, 202, 202);
+  padding: 20px;
+  border-radius: 10px;
+  width: 60%;
+  border: 1px solid #333;
+  margin: 10px;
+}
+
+.list button {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #333;
+}
+
+.list button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.list-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.check-name input {
+  margin-right: 20px;
+  border: none;
+  background-color: white;
+}
